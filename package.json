@@ -1,0 +1,21 @@
+{
+  "name": "kahn-sort",
+  "version": "1.0.0",
+  "description": "Topological sort using the Kahn algorithm",
+  "main": "kahn-sort.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "topological",
+    "sort"
+  ],
+  "author": "Alexander Fell <alex@alexfell.com> (http://alexfell.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0",
+    "mocha": "^3.1.2"
+  }
+}
