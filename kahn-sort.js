@@ -37,7 +37,7 @@ module.exports = function(input, invert) {
     }
 
     while(remaining.length) {
-        var child = remaining.pop();
+        var child = remaining.shift();
         sorted.push(child);
         var edge = edges[child];
         edge.outgoing.forEach(function(parent) {

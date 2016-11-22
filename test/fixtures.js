@@ -15,7 +15,7 @@ module.exports = {
                 ["5", "2"],
                 ["5", "4"]
             ],
-            output: [ '3','6','5','2','1','4' ]
+            output: [ '6','5','3','2','4','1' ]
         },
         "triangular sorted correctly": {
             /*
@@ -29,6 +29,25 @@ module.exports = {
                 ['b', 'c']
             ],
             output: ['a', 'b', 'c']
+        },
+        "multiple roots layered correctly": {
+            /*
+            Making a trifle and a cup of tea
+            whipped cream,
+            custard,
+            jam
+            ---
+            milk,
+            water,
+            tea
+             */
+            input: [
+                ['whipped cream', 'custard'],
+                ['custard', 'jam'],
+                ['milk', 'water'],
+                ['water', 'tea']
+            ],
+            output: ['milk', 'whipped cream', 'water', 'custard', 'tea', 'jam']
         }
     },
     "cyclic graphs": {
